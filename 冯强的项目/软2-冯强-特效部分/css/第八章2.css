@@ -1,0 +1,46 @@
+body{
+    /* 内外边距清零 */
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+div.box1{
+    width: 200px;
+    height: 100px;
+    /* padding: 1px 2px 3px 2px;
+    padding: 1px 2px 3px; */
+    padding: 5px;
+    border: tomato 2px solid;
+    margin: 10px;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
+
+div.box2{/*外层盒子*/
+    padding: 10px 30px 50px 100px;
+    border: 2px solid  blueviolet;}
+div.inner2{/*外层盒子：通过设置padding设置子元素间距*/
+padding: 10px;}
+#nbbh{/*内层盒子的子元素*/
+border-bottom: 8px double brown;
+/* 内补白：用padding（内边距）设置 */
+padding-bottom: 50px;
+text-align: center;}
+#nbbp{/* 内层盒子的子元素 */
+    padding: 0 20px 10px;}
+
+div.box3{
+    padding: 10px;
+    border: 2px solid skyblue;}
+div.inner3{
+    padding: 10px;
+}
+#wbbh{
+    border-bottom: 8px double brown;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#wbbp{
+    padding: 0 20px 10px;
+}

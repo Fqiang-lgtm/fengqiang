@@ -1,0 +1,7 @@
+#mainPanel{
+    /* 居中设置前提：设置div的宽、高的具体值 */
+    width: 240px;
+    height: 150px;
+    /* border: 1px red solid; */
+    margin: 0 auto;/* 上下、左右 */
+}

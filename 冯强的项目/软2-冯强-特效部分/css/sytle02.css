@@ -1,0 +1,42 @@
+body{
+/* 内外边距清零 */
+margin: 0; border: 0; padding: 0; }
+div.box1{
+    width: 200px; height: 100px;
+    /* padding: 1px 2px 2px 3px;
+    padding: 1px 2px 3px; */
+    /* padding: 1px 4px;
+    padding: 1px 4px 1px 4px; */
+    padding: 5px; margin: 10px;
+    border: tomato 2px solid;
+    /* width和height以border为边界 */
+    box-sizing: border-box;
+    /* width和height以content为边界 */
+    /* box-sizing: content-box; */
+}
+
+div.box2{/* 外层盒子 */
+    padding: 10px 30px 50px 100px;
+    border: 2px solid blueviolet;}
+div.inner2{/* 内层盒子*/
+    padding: 10px;}
+#nbbh{/*内层盒子的子元素h1 */
+    border-bottom: 8px double brown;
+    /* 内补白：用padding(内边距)设置。*/
+padding-bottom: 50px;/* 此处设置(padding-bottom)下内边距, 设置h1的content部分与自己的border-bottom(下边框)之间的空白大小(从10px改为50px，可见前后区别)*/
+    text-align: center;}
+#nbbp{/*内层盒子的子元素p */
+    padding: 0 20px 10px;}
+
+div.inner3{/* 内层盒子*/
+    margin: 10px;
+}
+#wbbh{/*内层盒子的子元素h1 */
+    border-bottom: 8px double brown;
+    /* 外补白：用margin(外边距)设置。*/
+margin-bottom: 50px;/* 此处设置(margin-bottom)下外边距, 设置h1的content部分与p之间的空白大小(从10px改为50px，可见前后区别)*/
+    text-align: center;
+}
+#wbbp{/*内层盒子的子元素p */
+    margin: 0 20px 10px;
+}

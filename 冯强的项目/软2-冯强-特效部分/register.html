@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎来到XXX电商主页！</title>
+    <style type="text/css">
+    @import './css/common.css';
+    </style>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <nav>
+        <a href="./商城.html" >主页</a>
+        <span class="seperator">|</span>
+        <a href="./我的订单.html" >我的订单</a>
+        <span class="seperator">|</span>
+        <a href="./收藏.html" >收藏</a>
+        <span class="seperator">|</span>
+        <a href="./帮助中心.html" >帮助中心</a>
+    </nav>
+    <br><br>
+<div id="main">
+<form action="#" >
+    <label for="username" class="must">手机号：</label>
+    <input type="text" id="username" >
+    <br>
+    <p>请输入手机号</p>
+    <label for="pwd" class="must">验证码：</label>
+    <input id="pwd" size="10" height="14">
+    <img src="./image/验证码.jpg" height="14">
+    <a href="#">换一张</a>
+    <br>
+    <p>请输入图中的字母或数字，不区分大小写</p>
+    <label for="username" class="must">校验码：</label>
+    <input type="text" id="username" size="7.5">
+    <input id="jym" type="button" value="免费获取校验码">
+    <br>
+    <p id="test1" class="test2">请输入短信中6位数字校验码&emsp;&emsp;<a href="#">校验码常见问题</a></p>
+    <label for="username" class="must">用户名：</label>
+    <input type="text" name="username" checked>
+    <br>
+    <p>2-14个字符：英文、数字或中文</p>
+
+    <label for="pwd" class="must">密&emsp;码：</label>
+    <input type="password" name="gender" id="pwd">
+    <br>    
+    <p>6-20个字符(区分大小写)</p>
+    <br>
+    <div id="hobby">
+        <label>爱好：</label>
+        <input type="checkbox" name="favoriate">游泳
+        <input type="checkbox" name="favoriate">健身
+        <input type="checkbox" name="favoriate">阅读
+        <input type="checkbox" name="favoriate">其它 
+    </div>
+
+    <div id="residence">
+        <label>居住地</label>
+        <select name="province" id="" size="1">
+            <option value="beijing" class="sd">北京</option>
+            <option value="shanghai">上海</option>
+            <option value="guangzhou">河南</option>
+            <option value="zhengzhou">河北</option>
+            <option value="zhumadian">四川</option>
+        </select>
+        <span>省</span>
+        <select name="city"  size="1">
+            <option value="zhengzhou" class="sh">郑州</option>
+            <option value="luoyang">洛阳</option>
+            <option value="kaifeng">开封</option>
+            <option value="xinyang">信阳</option>
+            <option value="zhumadian">驻马店</option>
+        </select>
+        <span>市(县)</span>
+    </div>
+    <input class="register" type="submit" value="马上注册">  
+    <br>
+    <a href="./logon.html">登录</a>
+    <p><input type="checkbox"> <span>我已经阅读并同意</span> <a href="#">360用户服务条款</a></p>
+</form>
+</div> 
+<div id="footer">
+    <div id="footer-promise">
+        <div class="container clear">
+            <div class="footer-promise-column clear">
+                <img src="./img/1.png">
+                <dl>
+                    <dt>100%正品</dt>
+                    <dd>正品保障 假一赔十</dd>
+                </dl>
+            </div>
+            <div class="footer-promise-column clear">
+                <img src="./img/2.png">
+                <dl>
+                    <dt>无忧退货</dt>
+                    <dd>国内退货 售后无忧</dd>
+                </dl>
+            </div>
+            <div class="footer-promise-column clear">
+                <img src="./img/3.png">
+                <dl>
+                    <dt>低价保障</dt>
+                    <dd>缩减环节 确保低价</dd>
+                </dl>
+            </div>
+            <div class="footer-promise-column clear">
+                <img src="./img/4.png">
+                <dl>
+                    <dt>海外发货</dt>
+                    <dd>海外直邮 闪电发货</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div id="footer-link">
+        <div class="container clear">
+            <div class="footer-link-column">
+                <h3>购物指南</h3>
+                <ul>
+                    <li>
+                        <a href="#">购物流程</a>
+                    </li>
+                    <li>
+                        <a href="#">发票制度</a>
+                    </li>
+                    <li>
+                        <a href="#">账户管理</a>
+                    </li>
+                    <li>
+                        <a href="#">会员优惠</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-link-column">
+                <h3>支付方式</h3>
+                <ul>
+                    <li>
+                        <a href="#">货到付款</a>
+                    </li>
+                    <li>
+                        <a href="#">网上支付</a>
+                    </li>
+                    <li>
+                        <a href="#">礼 品 卡</a>
+                    </li>
+                    <li>
+                        <a href="#">银行转账</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-link-column">
+                <h3>订单服务</h3>
+                <ul>
+                    <li>
+                        <a href="#">配送查询</a>
+                    </li>
+                    <li>
+                        <a href="#">状态说明</a>
+                    </li>
+                    <li>
+                        <a href="#">取消订单</a>
+                    </li>
+                    <li>
+                        <a href="#">修改订单</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-link-column">
+                <h3>配送方式</h3>
+                <ul>
+                    <li>
+                        <a href="#">配送范围</a>
+                    </li>
+                    <li>
+                        <a href="#">免邮标准</a>
+                    </li>
+                    <li>
+                        <a href="#">订单自提</a>
+                    </li>
+                    <li>
+                        <a href="#">验货签收</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-link-column">
+                <h3>售后服务</h3>
+                <ul>
+                    <li>
+                        <a href="#">售后政策</a>
+                    </li>
+                    <li>
+                        <a href="#">价格保护</a>
+                    </li>
+                    <li>
+                        <a href="#">退款说明</a>
+                    </li>
+                    <li>
+                        <a href="#">退 换 货</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer-menu">
+        <ul>
+            <li>
+                <a href="#">关于我们</a>
+            </li>
+            <li class="separator">|</li>
+            <li>
+                <a href="#">服务条款</a>
+            </li>
+            <li class="separator">|</li>
+            <li>
+                <a href="#">隐私保护</a>
+            </li>
+            <li class="separator">|</li>
+            <li>
+                <a href="#">联系我们</a>
+            </li>
+            <li class="separator">|</li>
+            <li>
+                <a href="#">帮助中心</a>
+            </li>
+        </ul>
+    </div>
+    <div id="footer-copyright">
+        <p>Copyright &copy; 2020 冯强. All Rights Reserved.</p>
+    </div>
+</div>
+</body>
+</html>

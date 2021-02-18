@@ -1,0 +1,75 @@
+        /* 标记选择器，及其样式(在花括号里) */
+        p{color: grey; font-size: x-small;}
+        /* a{color: rgb(25, 151, 139); font-size: x-small;} */
+        input{height: 28px;}
+        /* id选择器，及其样式(在花括号里)*/
+        #jym{background-color: lightcyan; color:royalblue; font-size: 11px; }
+        /* 类(class)选择器，及其样式(在花括号里)*/
+        .register{ width: 240px; height: 50px; font-size: 26px; background-color: yellowgreen; color: white;}
+        /* 属性选择器 */
+        [name]{color: mediumblue;}
+        [name="province"]{color: violet;}
+        .sd{color: red;}
+        .sh{color: yellow;}
+    /* 伪类选择器 */
+        /* 链接样式：*鼠标点击链接已松开 */
+        a:visited{color:aqua} 
+        
+        /* 链接样式：*未被鼠标点击(访问)过 */
+        a:link{color:hotpink;text-decoration: none;}
+        
+        /* 链接样式：*鼠标在链接上悬停(未点击) */
+        a:hover{color: chartreuse;}
+        
+        /* 链接样式：*鼠标点击链接未松开 */
+        a:active{color:crimson}
+
+        /* 表单控件样式：*获取焦点时 */
+        input:focus{
+            /* border: red solid 1px; */
+            /* 替换默认样式 */
+            outline: red solid 1px;
+        }
+
+        /* 多种选择器的组合使用 */
+        /* label.must{color: red;} */
+        
+        /* 伪元素选择器 
+        label.must(选中class属性为must的label元素)
+        ::before(在所选中的元素之前的样式) */
+        label.must::before{content: "*";color: red;}
+
+        /* 选择器的组合使用 */
+        /* 
+        option.sh{background-color: seagreen;}
+        option.sd{background-color: seagreen;} */
+
+        /* 选择器的分组 */
+        option.sh,option.sd{background-color: skyblue;}
+        /* 选择菜单栏的竖杠| */
+        span.seperator{
+            /* margin-left: 15px;
+            margin-right: 15px; */
+            padding: 0 25px 0;
+            /* margin: 0 50px 0 50px; */
+        }
+
+/* 选择器分组：爱好、居住地 */
+#hobby,#residence{
+margin-bottom: 20px;
+}
+
+#main{
+    width: 350px;
+    height: 650px;
+    margin: 0 auto;/*水平居中*/
+    /* border: 1px red solid; */
+}
+#foot{
+    width: 600px;
+    height: 80px;
+    margin: 0 auto;
+    /* border: 1px red solid; */
+    /* position: fixed; */
+    /* width: 100%; */
+}

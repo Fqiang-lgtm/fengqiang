@@ -1,0 +1,14 @@
+.z1{
+    background-color: aqua;
+    z-index: 0;
+}
+.z2{
+    background-color: chartreuse;
+    color: honeydew;
+    bor
+    z-index: 1;
+}
+.z3{
+    background-color: gold;
+    z-index: 2;
+}

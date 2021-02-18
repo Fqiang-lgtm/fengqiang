@@ -1,0 +1,16 @@
+/* 导航栏的分隔线 */
+span.fengexian{
+    padding: 0 20px;
+}
+
+/* 表格设置 */
+#recommend{
+    /* border: 1px yellowgreen solid; */
+    border-collapse: collapse;
+    border-spacing: 10px;
+    /* empty-cells: hide; */
+}
+/* 单元格边框 */
+td{
+    border: 1px yellowgreen solid;
+}

@@ -1,0 +1,21 @@
+div{
+    width: 200px;
+    height: 150px;
+    background: yellowgreen;
+    content: url('../image/icon/1.png');
+    /* 外边距(顺时针设置)：上 右 下 左 */
+    /* margin: 10px 20px 30px 40px; */
+    margin-top: 40px;margin-right: 30px;
+    margin-bottom: 20px;margin-left: 10px;
+    /* 边框设置：粗细 实线/虚线 */
+    /* border:2px dotted red; */
+    border-top: 2px;border-right: 2px;
+    border-bottom: 2px;border-left: 2px;
+    border-style:solid;/*边框样式(实线|虚线|双线)*/
+    border-color: blue;
+    border-radius: 20px;/*边框圆角半径*/
+    /* 内边距(同外边距) */
+    /* padding: 40px 30px 20px 10px; */
+    padding-top: 10px;padding-right: 20px;
+    padding-bottom: 30px;padding-left: 40px;
+  }

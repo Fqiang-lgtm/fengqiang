@@ -1,0 +1,37 @@
+.wrap{
+    border: hotpink 2px solid;
+    /* 清除浮动方法2 : 父元素溢出隐藏 */
+    /* width: 1000px;
+    height: 100px;
+    overflow: hidden; */
+}
+.z1,.z2,.z3,.z4{
+    width: 200px;height: 100px;
+    border: springgreen 1px solid;
+}
+/* 右浮动 */
+/* .z2,.z4{
+    float: right;
+} */
+/* 左浮动 */
+.z1,.z2,.z3,.z4{
+    float: left;
+}
+    /* 清除浮动方法3：空标签清除浮动（推荐） */
+    .z5{
+        clear: both;
+    }
+    /*清除浮动方法1： 伪类清除浮动（推荐） */
+    .wrap:after{
+        clear: both;/*左右两侧浮动清除*/
+        content:"";/*内容*/
+        display: block;/*块级元素*/
+        height: 0;/*高度*/
+        overflow: hidden;/*溢出隐藏（即超出盒子部分给予隐藏）*/
+        visibility: hidden;/*可视性：隐藏*/
+    }
+    /* 使用before和after双伪元素清除浮动 */
+    /* 左侧不能有浮动元素 */
+/* .clear_left{
+    clear: left;
+} */

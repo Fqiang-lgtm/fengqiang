@@ -1,0 +1,30 @@
+div.top{
+    width: 400px;
+    height: 500px;
+    border: yellowgreen 1px solid;
+}
+div.middle{
+    width: 200px;
+    height: 200px;
+    border: red 1px solid;
+    /* 定位position的值：static|relative|absolute| */
+    /* position: static; */
+
+    /* ----相对定位---- */
+    /* position: relative;
+    top: 20px;left: 40px; */
+
+    /* ----绝对定位（相对于上一层元素的定位）---- */
+    position: absolute;
+    left: 50px;top: 50px;
+
+    /* 固定定位(相对于页面body的定位) */
+    /* position: fixed;
+    left: 50px;top: 50px;*/
+} 
+div.bottom{
+    width: 400px;
+    height: 500px;
+    border: pink 1px solid;
+    position: relative;
+}

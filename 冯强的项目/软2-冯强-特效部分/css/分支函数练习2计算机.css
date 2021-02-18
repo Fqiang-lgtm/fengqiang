@@ -1,0 +1,12 @@
+input{
+    width: 40px;
+    border:1px skyblue solid ;
+}
+#jisuanjieguo{
+    width: fit-content;
+    border: 2px springgreen solid;
+    background-color: yellow;
+}
+body{
+    color: tomato;
+}
